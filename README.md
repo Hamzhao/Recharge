@@ -14,7 +14,8 @@ npm run dev
 # build for production with minification
 npm run build
 
-（打包后不能直接查看index，要在服务器下跑，所以在根目录，执行node server.js命令，在浏览器里打开localhost:2333 [2333是server.js配置好的端口]）
+（打包后不能直接查看index，要在服务器下跑，所以在根目录，执行node server.js命令，
+  在浏览器里打开localhost:2333 [2333是server.js配置好的端口]）
 
 # build for production and view the bundle analyzer report
 npm run build --report
