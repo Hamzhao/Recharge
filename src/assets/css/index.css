@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+body {
+  background: #fff;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit
+}
+
+.clearfix {
+  boom: 1;
+}
+
+.clearfix:after {
+  width: 0;
+  height: 0;
+  content: "";
+  clear: both;
+  overflow: hidden;
+}
+.ds-ibl{
+  display: inline-block;
+}
+.fl {
+  float: left
+}
+
+.fr {
+  float: right
+}
+
+section {
+  margin-top: 1.32rem;
+}
+.showImg{
+  font-size: 0;
+}
+ img {
+  width: 100%;
+}
+
+.tab-ctn {
+  padding: 0 26.8%;
+  height: 1.093rem;
+  line-height: 1.093rem;
+  font-size: 0.413rem;
+  color: rgba(0, 0, 0, 0.9);
+  border-bottom: 1px solid #d9dbde;
+}
+
+.tab-ctn span.router-link-active {
+  color: #4d85fb;
+}
+
+.recharge-ctn {
+  padding: .187rem 5.067% 0;
+  background: #fff;
+}
+
+.telInput {
+  position: relative;
+}
+
+.contacts {
+  display: inline-block;
+  position: absolute;
+  top: .253rem;
+  right: 0;
+  width: 4.734%;
+  height: 0.507rem;
+}
+
+.contacts img {
+  width: 100%;
+}
+
+.telNum {
+  width: 100%;
+  padding: .253rem 4.586% .253rem 0;
+  font-size: .387rem;
+  border: none;
+  border-bottom: 1px solid #bcbcbc;
+}
+
+.telNum::-webkit-input-placeholder {
+  color: #ddd;
+}
+
+.msg {
+  height: 0.293rem;
+  margin-top: 0.173rem;
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 0.293rem;
+}
+
+.red {
+  color: red;
+}
+
+.more-recharge {
+  padding: 0.347rem 4.933% 0.32rem;
+  background: #fff;
+  border-bottom: 1px solid #d0d3d6;
+}
+
+.more-recharge p {
+  margin-bottom: 0.333rem;
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 0.293rem;
+}
+
+.more-list,.more-list span {
+	display: inline-block;
+  width: 14.793%;
+}
+
+.more-list .more-icon {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.24rem;
+  font-size: 0;
+  text-align: center;
+}
+
+.more-list .more-icon img {
+  width: 52%;
+}
+
+.more-list .more-name {
+  display: block;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 0.32rem;
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+
+
+.operation {
+  padding: 0.456rem 26.933% 0;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 0;
+  background: #fff;
+}
+
+.operation span {
+  margin-right: 20.231%;
+  font-size: 0.32rem;
+}
+
+.operation span.line {
+  display: inline-block;
+  width: 1px;
+  height: 0.373rem;
+  background: #d0d3d6;
+  vertical-align: bottom;
+}
+
+.operation span:last-child {
+  margin-right: 0;
+}
+
+
