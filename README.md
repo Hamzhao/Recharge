@@ -1,6 +1,6 @@
 # v-huachuo
 
-> A Vue.js project
+> 一个给客户提供各类充值业务的项目，各页面跳转用到vue-router，而交互那块就用到vue-resource。
 
 ## Build Setup
 
